@@ -1,0 +1,120 @@
+body {
+    background-color: #94D2BD;
+  }
+  h1 {
+    color: #9B2226;
+    font-size: 35px;
+    padding: 60px 0 20px 20px;
+    margin: 0;
+    float: left;
+  }
+  
+  header a {
+      margin-right: 40px;
+  }
+  
+  header nav {
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #005F73;
+    padding: 10px;
+    margin: 60px 20px 0 0;
+    width: 683px;
+    float: right;
+    margin-right: 23px;
+  }
+  
+  a:link, a:visited{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  footer p, footer nav{
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  footer nav a {
+    margin-right: 0px;
+  }
+  
+  p {
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: center;
+  }
+  
+  li {
+    font-size: 20px;
+  }
+  ul {
+     list-style-position: inside;
+  }
+  
+  ol {
+     list-style-position: inside;
+  }
+  
+  img {
+    border-radius: 10%;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  
+  /* centers the text of each araticle section */
+  article {
+    text-align: center;
+    background: #E9D8A6;
+    border-radius: 10%;
+  }
+  
+  article p {
+    padding: 10px;
+  }
+  
+  div #socials ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  div #socials ul li {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .wrapper {
+    width: 1500px;
+    margin: auto;
+    float: center;
+  }
+  
+  /* splits the image and intro section */
+  .one-half {
+    width: 700px;
+    float: left;
+    margin-left: 23px;
+    margin-right: 23px;
+    background-color: #E9D8A6;
+    border-radius: 10%;
+  }
+  
+  /* centers any div it is applied to */
+  .center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  }
+  
+  .row:before, 
+  .row:after {
+      content: " ";
+      clear: both;
+      display: table;
+  }

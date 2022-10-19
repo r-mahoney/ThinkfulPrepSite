@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ryan Mahoney | A Student Webpage</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"> 
+  <!-- added normalization to match all browser css styling -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+    <div class="wrapper">
+		<h1>Ryan Mahoney | Software Engineering Student</h1>
+		  <nav>
+        <a href="#home">Home</a> <a href="#about">About</a> <a href="#contact">Contact</a>
+        <!-- use # + id names to skip to article with that id -->
+      </nav>
+    </div>
+	</header>
+
+  <div class="wrapper">
+<div class="row">
+  <div class="one-half"> <img  src="images/ryan.jpg" alt="A boy and his dog"/>
+  </div>
+  <div class="one-half" style="height: 650px;">
+    <!-- using style here to set the test half of
+     this row class to be the same height as the image regardless of the aount of text-->
+    <article id="home">
+      <h2>Im Ryan!</h2>
+      <p>I am a prospective Thinkful student currently living in Houston, Texas</p>
+      <p>My current interests include:
+        <ul>
+          <li>Training for a marathon</li>
+          <li>Larning as much JS, HTML, and CSS as I can</li>
+          <li>Playing with and training my dog, Ham</li>
+          <li>Playing video games with my friends</li>
+        </ul>
+      </p>
+      <p>My top 3 favorite video games right now are:
+      <ol>
+        <li>Valorant</li>
+        <li>Detroit: Become Human</li>
+        <li>Stardew Valley</li>
+      </ol>
+      </p>
+      <p></p>
+    </article>
+  </div>
+  </div>
+
+    <hr> <!-- adding rulers to the page to indicate article breaks -->
+
+    <div class="center">
+    <article id="about">
+      <h2>About Me</h2>
+      <p>I don't come from a comp-sci or tech background.</p>
+      <p>I went to college and graduated with a degree in chemistry. For 5 years i worked in a reference lab running various tests foro veterinarians using the skills I gained in labs in college. After a while i found that i had more of an interest troubleshooting the analyzers and righting scripts for our programs to make my job easier than i did doing labwork. After moving to Houston in September, I decided to make a career change into tech.</p>
+    </article>
+    </div>
+    
+    <hr>
+
+  <div id="socials" class="center">
+    <img src="images/Houston.jpg" alt="text saying Houston with a picture of the Houston skyline">
+    <article id="contact">
+      <h3>Feel free to contact me with the links below</h3>
+      <ul>
+        <li><a href="https://github.com/r-mahoney"><img src="images/Socials/github.png" style="width: 50px;" alt="github link"/></li>
+        <li><a href="www.linkedin.com/in/ryan-mahoney-25a9bab2"> <img src="images/Socials/linkedin.png" style="width: 50px;" alt="linkdin link"/></li>
+      </ul>
+    </article>
+  </div>
+</div>  
+  
+  <footer>
+    
+<div id="contact-footer" class="wrapper">
+      <nav>
+        <a href="#home">Home</a> <a href="#about">About</a> <a href="#contact">Contact</a>
+        <!-- use # + id names to skip to article with that id -->
+      </nav>     
+        </div>
+    </footer>
+  
+  <script src="script.js">	</script>
+</body>
+
+
+
+</html>
